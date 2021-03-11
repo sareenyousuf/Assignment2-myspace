@@ -1,0 +1,38 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.intro{
+  margin: auto;
+}
+.black {
+  width: 50%;
+  float: left;
+  background: #00394D;
+  height: 100vh;
+}
+
+.white{
+  width: 50%;
+  float: right;
+  background: beige;
+  height: 100vh;
+}
+
+.boxfather{
+  width:100%;
+  position:absolute;
+}
+
+.box button{
+  left:41.53%;
+  position:relative;
+  top:370px;
+  padding: 8px 20px;
+  cursor:pointer;
+  transition:all .3s ease;
+  font-size: 19px;
+  font-family: montserrat;
+  border-radius:8px;
+}

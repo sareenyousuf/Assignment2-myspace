@@ -1,0 +1,55 @@
+@import url(https://fonts.google.com/specimen/Josefin+Slab?preview.text_type=custom#standard-styles);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin-left: 50%;
+  font-size: 15px;
+  font-family: Josefin Slab;
+  text-align: left;
+}
+.forhire {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  background-image: url('me.png');
+  box-sizing: border-box;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  z-index: -1;
+}
+.blurb {
+  box-sizing: border-box;
+  padding: 2em;
+}
+
+.banner {
+  margin: 0 auto;
+  width: 75%;
+}
+.tagline {
+  margin: 4em 0 0 0;
+}
+.social {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+h3 {
+  margin-top: 3em;
+  font-size: 1em;  
+  color: rgba(0,0,0,.7);
+}
+h4 {
+  margin-top: 3em;
+  font-size: 1em;  
+  color: rgba(0,0,0,.7);
+}
+p {
+  margin: 1em 0;
+  color: rgba(0,0,0,.7);
+  line-height: 1.5em;
+}
